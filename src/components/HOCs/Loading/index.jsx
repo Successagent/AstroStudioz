@@ -16,10 +16,6 @@ function Loading(Page) {
     useEffect(() => {
       window.scrollTo(0, 0);
     }, [pathname]);
-
-    // useEffect(() => {
-    //   setTimeout(hideLoader, 5000);
-    // });
     return (
       <>
         <div
@@ -35,7 +31,7 @@ function Loading(Page) {
           onTimeout={hideLoader}
           timeout={3000}
         >
-          <Page {...props}/>
+          <Page {...props} />
         </OnImagesLoaded>
       </>
     );

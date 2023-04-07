@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import logo from "../../assets/ASTRO LOGO Solo.svg";
+import logo from "../../assets/astrosoft.svg";
 import { useInView } from "react-intersection-observer";
 import { Link } from "react-router-dom";
 import { AiOutlineMenu } from "react-icons/ai";

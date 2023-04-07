@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import {
   FaCalendar,
   FaPhone,
@@ -7,19 +7,19 @@ import {
   FaTwitter,
   FaLinkedinIn,
   FaInstagram,
-} from 'react-icons/fa'
+} from "react-icons/fa";
 
-import { FiArrowRight } from 'react-icons/fi'
-import '../../pages/About/About.css'
-import { Button, SmallButton } from '../Button'
+import { FiArrowRight } from "react-icons/fi";
+import "../../pages/About/About.css";
+import { Button, SmallButton } from "../Button";
 
-import footerLogoOne from '../../assets/Images/logo-black.png'
-import footerLogoTwo from '../../assets/Images/img_05.png'
-import footerLogoThree from '../../assets/Images/img_07.png'
-import footerLogoFour from '../../assets/Images/img_08.png'
-import footerLogoFive from '../../assets/Images/img_05.png'
-import footerLogoSix from '../../assets/Images/img_03-150.jpg'
-import footerLogoSeven from '../../assets/Images/img_02-150.jpg'
+import footerLogoOne from "../../assets/astrosoft.svg";
+import footerLogoTwo from "../../assets/noseason.png";
+import footerLogoThree from "../../assets/orbitalLogo.png";
+import footerLogoFour from "../../assets/Images/img_08.png";
+import footerLogoFive from "../../assets/Images/img_05.png";
+import footerLogoSix from "../../assets/Images/img_03-150.jpg";
+import footerLogoSeven from "../../assets/Images/img_02-150.jpg";
 
 const Footer = () => {
   return (
@@ -51,7 +51,21 @@ const Footer = () => {
             <Link to="/faq">Faq</Link>
           </li>
         </ul>
-
+        <ul>
+          <h3 className="h3">Quick Links.</h3>
+          <li className="h5">
+            <Link to="/services">Services</Link>
+          </li>
+          <li className="h5">
+            <Link to="/about">About</Link>
+          </li>
+          <li className="h5">
+            <Link to="/contact">Contact</Link>
+          </li>
+          <li className="h5">
+            <Link to="/faq">Faq</Link>
+          </li>
+        </ul>
         <div className="footer-recent-news-sec">
           <h3 className="h3">Recent News.</h3>
           <div className="footer-calendar-sec">
@@ -115,7 +129,7 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

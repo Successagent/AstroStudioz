@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 
-import mockupImg from "../../assets/mockupImg.png";
+import mockupImg from "../../assets/astro2.jpg";
+import mockupImg2 from "../../assets/astro9.jpg";
 import heroImg from "../../assets/hero_img.jpg";
-import featuresImg from "../../assets/featuresImg.jpg";
+import featuresImg from "../../assets/astro7.jpg";
 import xpImg from "../../assets/25years.png";
 
 import serviceImg from "../../assets/serviceImg.jpg";
@@ -21,39 +22,20 @@ function Home() {
       <Header />
       <section className="hero">
         <div className="hero__text">
-          <h3 className="sect__sub_header">— Welcome to AstroPrint</h3>
+          <h3 className="sect__sub_header">— Welcome to AstroStudioz</h3>
           <h1>
-            Modern <br />
-            Printing <br />
-            Agency{" "}
+            Come <br />
+            Let AstroStudioz <br />
+            Give You Some Cool <br />
+            Nice Shoots
           </h1>
           <Button>Discover More</Button>
-        </div>
-        <div className="hero__img">
-          <img src={heroImg} alt="" />
-        </div>
-      </section>
-      <section className="sect">
-        <h3 className="sect__sub_header">Our Core Features</h3>
-        <h2 className="sect__header">Experience Allows Us to Print things</h2>
-        <div className="showGrid">
-          <div className="showGrid__row showGrid__row--1">
-            <FeatureCard />
-            <FeatureCard />
-          </div>
-          <div className="showGrid__row showGrid__row--2 showGrid__row-img">
-            <img src={featuresImg} alt="" />
-          </div>
-          <div className="showGrid__row showGrid__row--3">
-            <FeatureCard />
-            <FeatureCard />
-          </div>
         </div>
       </section>
       <section className="sect">
         <h3 className="sect__sub_header">About our company</h3>
         <h2 className="sect__header">
-          Printing your dream works with AstroPrint
+          Printing your dream works with AstroStudioz
         </h2>
         <div className="sect sect--row sect--row_start">
           <div className="sect__img">
@@ -82,10 +64,10 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className="sect">
+      {/* <section className="sect">
         <h3 className="sect__sub_header">What we Offer</h3>
         <h2 className="sect__header">
-          We provide lots of printing & branding services
+          We provide Good Quality Studio Pictures
         </h2>
         <div className="showGrid">
           <div className="showGrid__row showGrid__row--1">
@@ -95,11 +77,11 @@ function Home() {
           <div className="showGrid__row showGrid__row--2">
             <img src={serviceImg} alt="" />
             <div className="">
-              <h3>Design & Branding</h3>
+              <h3>Design & Good Pictures</h3>
               <p>
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                 accusantium doloremque laudantiumse totam rem aperiam eaque ipsa
-                quae abillo{" "}
+                quae abillo
               </p>
               <a href="http://">Read More</a>
             </div>
@@ -109,32 +91,32 @@ function Home() {
             <ServiceCard />
           </div>
         </div>
-      </section>
+      </section> */}
       <section className="sect sect--row sect--blue">
         <div className="sect__text">
-          <h3 className="sect__sub_header">Need any help</h3>
-          <h2 className="sect__header">Why people choose AstroPrint</h2>
+          <h3 className="sect__sub_header">Need any Good Photo</h3>
+          <h2 className="sect__header">Why people choose AstroStudioz</h2>
           <p>
             Quote Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
             quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo{" "}
+            dicta sunt explicabo
           </p>
           <Button>Meet with us</Button>
         </div>
         <div className="sect__img">
-          <img src={mockupImg} alt="" />
+          <img src={mockupImg2} alt="" />
         </div>
       </section>
 
       <section className="sect sect--row-reverse">
         <div className="sect__text">
           <h3 className="sect__sub_header">What we Do</h3>
-          <h2 className="sect__header">Why people choose AstroPrint</h2>
+          <h2 className="sect__header">Why people choose AstroStudioz</h2>
           <p>
             Sed ut perspiciatis unde omnis iste natus erroluptatem accusantium
             doloremque laudantium, totam rem aeaque ipsa quae ab illo inventore
-            veritatis et quasi{" "}
+            veritatis et quasi
           </p>
           <ul>
             <li>Professional & Experienced</li>
@@ -153,32 +135,13 @@ function Home() {
         <h3 className="sect__sub_header">Our Recent Works</h3>
         <h2 className="sect__header">Let's See our latest projects</h2>
         <div className="work_grid">
-          <div className="work"></div>
-          <div className="work"></div>
-          <div className="work"></div>
-          <div className="work"></div>
+          <div className="work work1"></div>
+          <div className="work work2"></div>
+          <div className="work work3"></div>
+          <div className="work work4"></div>
         </div>
       </section>
-      {/* <section className="sect sect--row">
-        <div className="sect__text">
-          <h3 className="sect__sub_header">👌</h3>
-          <h2 className="sect__header">What our clients say</h2>
-          <h2 className="sect__header">Reviews</h2>
-        </div>
-        <div>
-          <p>Printing</p>
-          <img src="" alt="" />
-        </div>
-      </section> */}
-      <section className="sect">
-        <h3 className="sect__sub_header">Latest News & blog</h3>
-        <h2 className="sect__header">Get More Updates for news & articles</h2>
-        <div className="blog_list">
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
-        </div>
-      </section>
+
       <Footer />
     </>
   );

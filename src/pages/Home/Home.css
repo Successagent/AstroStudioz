@@ -1,7 +1,10 @@
 .hero {
   display: flex;
   min-height: 130vh;
-  background: var(--bg-blue);
+  background-image: url(../../assets/astro13.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
 }
 
@@ -9,11 +12,15 @@
 .hero__img {
   flex: 1;
 }
+
 .hero__img img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
+
+
+
 .hero__text {
   text-align: left;
   padding: 5em 0;
@@ -25,7 +32,7 @@
 }
 
 .hero__text h1 {
-  font-size: 7.5rem;
+  font-size: 4.5rem;
   margin-top: 0.6em;
   /* font-family: var(--main-font); */
   font-weight: inherit;
@@ -37,7 +44,7 @@
   margin-top: 3em;
 }
 
-.sect__text > button {
+.sect__text>button {
   margin-top: 2em;
 }
 
@@ -63,15 +70,19 @@
 .showGrid__row--1 {
   grid-area: row1;
 }
+
 .showGrid__row--2 {
   grid-area: row2;
 }
+
 .showGrid__row--3 {
   grid-area: row3;
 }
+
 .showGrid__row-img {
   position: relative;
 }
+
 .showGrid__row-img::before {
   content: "";
   position: absolute;
@@ -126,19 +137,45 @@
 .work:nth-child(1) {
   grid-area: large;
   background: #500;
+  background-image: url(../../assets/astro1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .work:nth-child(2) {
   grid-area: med;
   background: #540;
+  background-image: url(../../assets/astro5.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
+
 .work:nth-child(3) {
   grid-area: small1;
   background: #090;
+  background-image: url(../../assets/astro11.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
+
 .work:nth-child(4) {
   grid-area: small2;
   background: #506;
+  background-image: url(../../assets/astro8.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .wrap-image {
@@ -156,14 +193,12 @@
 }
 
 @media screen and (max-width: 1068px) {
-  .hero__text {
-    /* text-align: center;
-    padding-left: 0;
-    align-items: center; */
-  }
+
+
   .hero__text h1 {
     font-size: 5rem;
   }
+
   .showGrid {
     grid-template-areas:
       "row2 row2"
@@ -175,15 +210,18 @@
   .hero {
     flex-direction: column-reverse;
   }
+
   .hero__text {
     text-align: center;
     padding-left: 0;
     align-items: center;
     margin-top: -30px;
   }
+
   .hero__text h1 {
     font-size: 3rem;
   }
+
   .hero__text h1 br {
     display: none;
   }
