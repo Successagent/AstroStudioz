@@ -5,20 +5,17 @@ import "../About/About.css";
 import Loading from "../../components/HOCs/Loading";
 import { FaMinus, FaPlus } from "react-icons/fa";
 
-import aboutImageOne from "../../assets/Images/img_01.png";
+import aboutImageOne from "../../assets/astro20.jpg";
 import aboutImageTwo from "../../assets/astrosoft.svg";
-import aboutImageThree from "../../assets/Images/iso.png";
-import aboutImageFour from "../../assets/Images/img_01-9.jpg";
-import aboutImageFive from "../../assets/Images/img_01-2-768x680.jpg";
+
 import AboutCard from "../../components/Card/AboutCard/AboutCard";
-import MemberCard from "../../components/Card/MemberCard";
 import ReviewsCard from "../../components/Card/ReviewsCard/ReviewsCard";
 import Footer from "../../components/Footer";
 import Banner from "../../components/Banner";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
-function About({ toggleActive, active }) {
+function About({}) {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
@@ -37,38 +34,26 @@ function About({ toggleActive, active }) {
               <h1 className="h2">AstroStudioz</h1>
             </div>
             <p className="p">
-              About Sed ut perspiciatis unde omnis iste natus error sit
-              voluptatem accu santium doloremque laudantium, totam rem aperiam,
-              eaque ipquae ab illo inventore veritatis et quasi architecto
-              beatae
+              Astro Studioz is equipped with one of the best cameras, Talking
+              about a canon M50 mark II, M6, and other equipments like the
+              drone, good studio lights and props
             </p>
             <h5 className="h5">
-              But I must explain to you how all this mistaken idea of denouncing
-              pleasure and praising pain was born and I will give you a complete
-              account of the system and expound the actual teachings of the
-              great explorer of the truth, the master-build human happiness. No
-              one rejects, dislikes, or avoids pleasure
+              AstroStudioz is a photography studio company that specializes in
+              capturing memorable moments through stunning photographs.
+              AstroStudioz was established by a group of enthusiastic and gifted
+              photographers, and it has been offering consumers top-notch
+              photography services for many years. Every customer at
+              AstroStudioz is different, and each one has a certain idea in mind
+              for their photo session. In order to create high-quality images
+              that go above and beyond their expectations, our team of seasoned
+              photographers works closely with customers to understand their
+              needs and preferences. Whether you want to capture a corporate
+              event, a family portrait, or your wedding day, AstroStudioz has
+              the knowledge and talent to take stunning photos that will stand
+              the test of time. Modern tools and methods are used to ensure that
+              each detail is precisely captured.
             </h5>
-            <div className="about-part-two-footer">
-              <div>
-                <img src={aboutImageTwo} alt="" />
-                <div>
-                  <h3 className="h3">ISO Certified</h3>
-                  <h5 className="h5">
-                    ISO Certified Denouncing pleasure and praising pain was born
-                  </h5>
-                </div>
-              </div>
-              <div>
-                <img src={aboutImageTwo} alt="" />
-                <div>
-                  <h3 className="h3">Award Wins</h3>
-                  <h5 className="h5">
-                    Denouncing pleasure and praising pain was bor
-                  </h5>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
         <div className="about-section-three">

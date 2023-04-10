@@ -1,39 +1,19 @@
 import React from "react";
 
 import ReviewLogoOne from "../../../assets/astro3.jpg";
-import ReviewLogoTwo from "../../../assets/astro6.jpg";
-import ReviewLogoThree from "../../../assets/astro9.jpg";
+import ReviewLogoTwo from "../../../assets/astro16.jpg";
+import ReviewLogoThree from "../../../assets/astro1.jpg";
 const ReviewsCard = () => {
   return (
     <div className="review-card">
       <div>
         <div className="reviewcard-caption">
-          <p className="h5">
-            Title Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremqe laudantium totam rem aperiam eaque ipsa quae
-            abillo inventore
-          </p>
+          <p className="h5">The Pictures are beautiful and very creative</p>
         </div>
         <div className="reviewcard-item-two">
           <img src={ReviewLogoOne} alt="" />
           <div>
-            <h3>Cassey</h3>
-            <p className="h5">Marketer</p>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div className="reviewcard-caption">
-          <p className="h5">
-            Title Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremqe laudantium totam rem aperiam eaque ipsa quae
-            abillo inventore
-          </p>
-        </div>
-        <div className="reviewcard-item-two">
-          <img src={ReviewLogoTwo} alt="" />
-          <div>
-            <h3>Cassey Vegas</h3>
+            <h3>Blessing</h3>
             <p className="h5">Enterprenuer</p>
           </div>
         </div>
@@ -41,16 +21,28 @@ const ReviewsCard = () => {
       <div>
         <div className="reviewcard-caption">
           <p className="h5">
-            Title Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremqe laudantium totam rem aperiam eaque ipsa quae
-            abillo inventore
+            There is more creativity in AstroStudioz than they know{" "}
+          </p>
+        </div>
+        <div className="reviewcard-item-two">
+          <img src={ReviewLogoTwo} alt="" />
+          <div>
+            <h3>Promzy</h3>
+            <p className="h5">Musician</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className="reviewcard-caption">
+          <p className="h5">
+            Y'all did the most, I couldn't almost recognise myself
           </p>
         </div>
         <div className="reviewcard-item-two">
           <img src={ReviewLogoThree} alt="" />
           <div>
-            <h3>Mrs Kelvin</h3>
-            <p className="h5">Web Develop</p>
+            <h3>Chidera</h3>
+            <p className="h5">Model</p>
           </div>
         </div>
       </div>

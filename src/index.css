@@ -114,12 +114,12 @@ button {
 
 .footer-item-two {
   margin-bottom: 100px;
-  margin-top: 50px;
+  padding-top: 50px;
   align-items: flex-start;
 }
 
 .footer-recent-news-sec {
-  width: 33%;
+  width: 40%;
   margin-right: 15px;
 }
 
@@ -129,7 +129,7 @@ button {
 }
 
 .footer-item-two ul {
-  width: 20%;
+  width: 30%;
 }
 
 .footer-item-two .h3 {

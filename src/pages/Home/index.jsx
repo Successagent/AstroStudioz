@@ -35,7 +35,7 @@ function Home() {
       <section className="sect">
         <h3 className="sect__sub_header">About our company</h3>
         <h2 className="sect__header">
-          Printing your dream works with AstroStudioz
+          Get your dream Pictures with AstroStudioz
         </h2>
         <div className="sect sect--row sect--row_start">
           <div className="sect__img">
@@ -43,22 +43,23 @@ function Home() {
           </div>
           <div className="sect__text">
             <div className="sect__text--row">
-              <img className="wrap-image" src={xpImg} alt="" />
               <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantiu dolorem laudantium, totam rem aper iam eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beataese
-                vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-                volupta
+                This stunning photograph captures a perfect moment of joy for
+                the Young man here, with the vibrant colors and natural lighting
+                adding a magical touch. It's a true testament to the exceptional
+                photography skills and creative eye of the AstroStudioz team.
               </p>
             </div>
             <div className="sect__text--col">
               <p className="text--gray">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantiu dolorem laudantium, totam rem aper iam eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beataese
-                vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-                volupta{" "}
+                AstroStudioz would love to be selected as the official
+                photographer for a major international event, such as the
+                Olympic Games or a high-profile music festival. Being chosen for
+                such an event would not only be a tremendous honor but also
+                provide the opportunity to showcase our creative talents and
+                exceptional photography skills on a global stage. It would also
+                help us to attract even more high-profile clients and expand our
+                reach as a top-tier photography studio.
               </p>
             </div>
           </div>
@@ -97,35 +98,34 @@ function Home() {
           <h3 className="sect__sub_header">Need any Good Photo</h3>
           <h2 className="sect__header">Why people choose AstroStudioz</h2>
           <p>
-            Quote Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo
+            For its distinctive and cutting-edge approach to photography,
+            AstroStudioz is renowned. We test the limits of conventional
+            photography and look for fresh, imaginative approaches to capturing
+            lovely moments. Our talented team of photographers is always looking
+            for fresh ideas and methods to produce outstanding outcomes.
           </p>
-          <Button>Meet with us</Button>
         </div>
         <div className="sect__img">
           <img src={mockupImg2} alt="" />
         </div>
       </section>
-
       <section className="sect sect--row-reverse">
         <div className="sect__text">
           <h3 className="sect__sub_header">What we Do</h3>
           <h2 className="sect__header">Why people choose AstroStudioz</h2>
           <p>
-            Sed ut perspiciatis unde omnis iste natus erroluptatem accusantium
-            doloremque laudantium, totam rem aeaque ipsa quae ab illo inventore
-            veritatis et quasi
+            At AstroStudioz, we believe that exceptional customer service is
+            just as important as exceptional photography. We work closely with
+            our clients to understand their needs and preferences, and we strive
+            to provide a stress-free and enjoyable experience during the
+            photography session. Our team is always available to answer any
+            questions and provide support throughout the entire process.
           </p>
           <ul>
             <li>Professional & Experienced</li>
             <li>Low Cost & Digital Printing Agency</li>
             <li>Pixel Perfect and Accurate Printing</li>
-            <li>Transport & Low Transportations Cost</li>
-            <li>Exclusive Team Members</li>
           </ul>
-          <Button>Learn more</Button>
         </div>
         <div className="sect__img">
           <img src={mockupImg} alt="" />

@@ -1,8 +1,8 @@
-import AboutCardLogoOne from '../../../assets/Images/img_01-3.jpg'
-import AboutCardLogoTwo from '../../../assets/Images/img_02-3.jpg'
-import AboutCardLogoThree from '../../../assets/Images/img_03-3.jpg'
-import { Button, SmallButton } from '../../Button'
-import { FiArrowRight } from 'react-icons/fi'
+import AboutCardLogoOne from "../../../assets/astro5.jpg";
+import AboutCardLogoTwo from "../../../assets/astro13.jpg";
+import AboutCardLogoThree from "../../../assets/astro2.jpg";
+import { Button, SmallButton } from "../../Button";
+import { FiArrowRight } from "react-icons/fi";
 
 const AboutCard = () => {
   return (
@@ -12,13 +12,10 @@ const AboutCard = () => {
           <img src={AboutCardLogoOne} alt="" />
         </div>
         <div className="about-card-items">
-          <SmallButton>
-            <FiArrowRight />
-          </SmallButton>
-          <h3 className="h3">Company History</h3>
+          <h3 className="h3">Creativity</h3>
           <p className="h5">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium totam
+            We believe in pushing the boundaries of photography and exploring
+            new and innovative ways to capture beautiful moments.
           </p>
         </div>
       </div>
@@ -27,11 +24,10 @@ const AboutCard = () => {
           <img src={AboutCardLogoTwo} alt="" />
         </div>
         <div className="about-card-items">
-          <SmallButton><FiArrowRight/></SmallButton>
-          <h3 className="h3">Exclusive Members</h3>
+          <h3 className="h3">Quality</h3>
           <p className="h5">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium totam
+            We believe in delivering high-quality photographs that exceed our
+            clients' expectations and stand the test of time.
           </p>
         </div>
       </div>
@@ -40,18 +36,15 @@ const AboutCard = () => {
           <img src={AboutCardLogoThree} alt="" />
         </div>
         <div className="about-card-items">
-          <SmallButton>
-            <FiArrowRight></FiArrowRight>
-          </SmallButton>
-          <h3 className="h3">Working Progress</h3>
+          <h3 className="h3"> Professionalism</h3>
           <p className="h5">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium totam
+            We are committed to providing our clients with the highest level of
+            professionalism, from our communication to our photography skills.
           </p>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default AboutCard
+export default AboutCard;
