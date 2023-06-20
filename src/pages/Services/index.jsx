@@ -18,8 +18,6 @@ import {
   FiTruck,
 } from "react-icons/fi";
 
-import { Button, SmallButton } from "../../components/Button";
-
 import "../Services/Service.css";
 import "../About/About.css";
 import Banner from "../../components/Banner";

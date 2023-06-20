@@ -1,20 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 
 import mockupImg from "../../assets/astro2.jpg";
 import mockupImg2 from "../../assets/astro9.jpg";
-import heroImg from "../../assets/hero_img.jpg";
 import featuresImg from "../../assets/astro7.jpg";
-import xpImg from "../../assets/25years.png";
-
-import serviceImg from "../../assets/serviceImg.jpg";
 
 import Loading from "../../components/HOCs/Loading";
-
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import "./Home.css";
-import Button from "../../components/Button/";
-import { FeatureCard, ServiceCard, BlogCard } from "../../components/Card";
+import Button from "../../components/Button";
 
 function Home() {
   return (

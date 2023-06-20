@@ -93,7 +93,33 @@ const Footer = () => {
         <p className="p">Powered by AstroSoft. All Rights Reserved</p>
         <div className="footer-last-item-child-two">
           <div>
-            <FaInstagram></FaInstagram>
+            <a
+              target="_blank"
+              href="https://www.facebook.com/astrosoftng?mibextid=ZbWKwL"
+            >
+              <FaFacebookF></FaFacebookF>
+            </a>
+          </div>
+          <div>
+            <a target="_blank" href="https://twitter.com/Astrosoftio?s=20">
+              <FaTwitter></FaTwitter>
+            </a>
+          </div>
+          <div>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/company/astrosoftng/mycompany/"
+            >
+              <FaLinkedinIn></FaLinkedinIn>
+            </a>
+          </div>
+          <div>
+            <a
+              target="_blank"
+              href="https://www.instagram.com/astrostudioz.io/"
+            >
+              <FaInstagram></FaInstagram>
+            </a>
           </div>
         </div>
       </div>

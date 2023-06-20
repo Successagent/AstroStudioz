@@ -1,12 +1,9 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import Header from "../../components/Header";
 import "../About/About.css";
 
 import Loading from "../../components/HOCs/Loading";
-import { FaMinus, FaPlus } from "react-icons/fa";
-
 import aboutImageOne from "../../assets/astro20.jpg";
-import aboutImageTwo from "../../assets/astrosoft.svg";
 
 import AboutCard from "../../components/Card/AboutCard/AboutCard";
 import ReviewsCard from "../../components/Card/ReviewsCard/ReviewsCard";

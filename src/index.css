@@ -246,6 +246,17 @@ button {
   border-radius: 50%;
 }
 
+.footer a {
+  color: white !important;
+
+}
+
+.footer-last-item-child-two a {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
 @media (max-width: 600px) {
   footer {
     padding: 15px;
@@ -351,6 +362,7 @@ button {
     display: none;
   }
 }
+
 
 @media (max-width: 600px) and (min-width: 601px) {
   .footer-item-two {

@@ -1,8 +1,6 @@
 import AboutCardLogoOne from "../../../assets/astro5.jpg";
 import AboutCardLogoTwo from "../../../assets/astro13.jpg";
 import AboutCardLogoThree from "../../../assets/astro2.jpg";
-import { Button, SmallButton } from "../../Button";
-import { FiArrowRight } from "react-icons/fi";
 
 const AboutCard = () => {
   return (
