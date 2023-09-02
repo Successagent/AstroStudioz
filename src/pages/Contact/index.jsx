@@ -10,7 +10,6 @@ import { FaMapMarkedAlt } from "react-icons/fa";
 
 import "../Contact/Contact.css";
 import "../About/About.css";
-import Map from "../../components/Map/Map";
 
 const Contact = () => {
   return (

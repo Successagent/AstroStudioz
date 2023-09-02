@@ -33,20 +33,19 @@ function App() {
     }
   };
   return (
-    // <Routes>
-    //   <Route path="/" element={<Home />} />
-    //   <Route
-    //     path="about"
-    //     element={<About toggleActive={toggleActive} active={active} />}
-    //   />
-    //   <Route path="services" element={<Services />} />
-    //   <Route
-    //     path="faq"
-    //     element={<Faq toggleActive={toggleActive} active={active} />}
-    //   />
-    //   <Route path="contact" element={<Contact />} />
-    // </Routes>
-    <></>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route
+        path="about"
+        element={<About toggleActive={toggleActive} active={active} />}
+      />
+      <Route path="services" element={<Services />} />
+      <Route
+        path="faq"
+        element={<Faq toggleActive={toggleActive} active={active} />}
+      />
+      <Route path="contact" element={<Contact />} />
+    </Routes>
   );
 }
 

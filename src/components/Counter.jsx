@@ -1,5 +1,5 @@
-import React, { useState, useRef } from "react";
-import CountUp, { useCountUp } from "react-countup";
+import React, { useRef } from "react";
+import { useCountUp } from "react-countup";
 
 function Counter({ count }) {
   const countUpRef = useRef(null);

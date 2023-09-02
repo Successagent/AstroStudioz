@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import {
-  FaCalendar,
   FaPhone,
   FaFacebookF,
   FaTwitter,
@@ -11,15 +10,7 @@ import {
 
 import { FiArrowRight } from "react-icons/fi";
 import "../../pages/About/About.css";
-import { Button, SmallButton } from "../Button";
-
-import FooterLogoOne from "../../assets/astrosoft.svg";
-import footerLogoTwo from "../../assets/noseason.png";
-import footerLogoThree from "../../assets/orbitalLogo.png";
-import footerLogoFour from "../../assets/Images/img_08.png";
-import footerLogoFive from "../../assets/Images/img_05.png";
-import footerLogoSix from "../../assets/Images/img_03-150.jpg";
-import footerLogoSeven from "../../assets/Images/img_02-150.jpg";
+import { SmallButton } from "../Button";
 
 const Footer = () => {
   return (

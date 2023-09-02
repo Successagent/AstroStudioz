@@ -59,34 +59,7 @@ function Home() {
           </div>
         </div>
       </section>
-      {/* <section className="sect">
-        <h3 className="sect__sub_header">What we Offer</h3>
-        <h2 className="sect__header">
-          We provide Good Quality Studio Pictures
-        </h2>
-        <div className="showGrid">
-          <div className="showGrid__row showGrid__row--1">
-            <ServiceCard />
-            <ServiceCard />
-          </div>
-          <div className="showGrid__row showGrid__row--2">
-            <img src={serviceImg} alt="" />
-            <div className="">
-              <h3>Design & Good Pictures</h3>
-              <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantiumse totam rem aperiam eaque ipsa
-                quae abillo
-              </p>
-              <a href="http://">Read More</a>
-            </div>
-          </div>
-          <div className="showGrid__row showGrid__row--3">
-            <ServiceCard />
-            <ServiceCard />
-          </div>
-        </div>
-      </section> */}
+
       <section className="sect sect--row sect--blue">
         <div className="sect__text">
           <h3 className="sect__sub_header">Need any Good Photo</h3>
