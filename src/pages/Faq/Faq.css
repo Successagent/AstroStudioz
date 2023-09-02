@@ -1,0 +1,122 @@
+.faq-section {
+  background-color: white;
+}
+
+.about-printing-intro {
+  border-color: #f0f0f0;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 100;
+  color: red;
+}
+
+.about-printing-intro .h3 {
+  font-size: 16px;
+  color: black;
+  height: 100%;
+}
+.faq-section-one .h5,.tab-content-con h5 {
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+  height: 0px;
+}
+
+.increase-height {
+  height: 100px !important;
+  opacity: 1 !important;
+  transition: all 300ms ease-in-out;
+}
+.faq-section-one {
+  display: flex;
+  padding: 100px 130px;
+  gap: 100px;
+}
+
+.faq-section-one > div {
+  width: 50%;
+}
+
+.faq-section-two {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.faq-section-two-part-one {
+  height: 750px;
+}
+
+.faq-section-two-part-two > div:nth-child(1) {
+  background-color: var(--primary-blue);
+}
+
+.faq-section-two-part-one > div:nth-child(2) {
+  background-color: #f0f0f0;
+  color: black;
+  height: 100%;
+}
+
+.faq-section-two-part-one > div:nth-child(1) {
+  height: 100%;
+}
+
+.faq-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.faq-form > div {
+  background-color: white;
+  width: 80%;
+}
+
+.faq-form input,
+.faq-form textarea {
+  background-color: white;
+  height: 50px;
+  border: none;
+  width: 70%;
+  outline: none;
+  color: black;
+  padding-left: 20px;
+}
+
+.faq-form textarea {
+  height: 150px;
+  width: 80%;
+  padding-top: 20px;
+}
+
+.faq-section-btn {
+  justify-content: center;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+@media (max-width: 500px) {
+  .faq-section-one {
+    flex-direction: column;
+    padding: 0;
+    padding: 80px 30px;
+    gap: 30px;
+  }
+
+  .faq-section-one > div {
+    width: 100%;
+  }
+
+  .faq-section-two-part-one {
+    height: auto;
+    padding: 0;
+  }
+
+  .faq-form > div,
+  .faq-form textarea {
+    width: 100%;
+  }
+
+  .faq-section-two .about-section-five-part-one > div:nth-child(2) {
+    padding: 100px 15px;
+  }
+}

@@ -1,0 +1,31 @@
+.wrapper {
+  width: 100%;
+  /* border: 10px solid #000; */
+  display: block;
+}
+
+.container {
+  border: 1px solid #e9e9e9;
+  color: #000;
+  width: 100%;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.image {
+  padding: 6em 4em;
+  background: #031;
+}
+.details {
+  /* padding: 1em; */
+  border-bottom: 1px solid #e9e9e9;
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  padding: 10px;
+}
+.title {
+  margin-bottom: 1em;
+}
+.meta {
+}

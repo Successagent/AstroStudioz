@@ -1,0 +1,32 @@
+.container {
+  background: attr(data-color);
+  padding: 3em 0.3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1em;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.body {
+  font-weight: 400;
+  margin: 20px 0;
+  width: 90%;
+  line-height: 1.8em;
+}
+
+.link {
+}

@@ -1,0 +1,76 @@
+.button {
+  border-radius: 0px;
+  background-color: var(--primary-red);
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  padding: 6px;
+  position: relative;
+  overflow: hidden;
+  padding-left: 1em;
+}
+
+.fillFlex {
+  align-self: flex-start;
+}
+@media screen and (max-width: 768px) {
+  .fillFlex {
+    align-self: center;
+  }
+}
+
+.button * {
+  z-index: 1;
+}
+
+.button::before {
+  content: "";
+  top: 0;
+  left: -100%;
+  position: absolute;
+  width: 102%;
+  height: 100%;
+  background: #2edb5a;
+  z-index: 0;
+}
+
+.button p {
+  transition: all 200ms;
+}
+.button::before {
+  animation: slideOut 200ms both;
+}
+.button:hover {
+  /* color: #fff; */
+}
+.button:hover::before {
+  animation: slideIn 200ms both;
+}
+
+.arrowContainer {
+  --size: 40px;
+  padding: 4px;
+  height: var(--size);
+  width: var(--size);
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translate(0%);
+  }
+  100% {
+    transform: translate(98%);
+  }
+}
+@keyframes slideOut {
+  0% {
+    transform: translate(98%);
+  }
+  100% {
+    transform: translate(202%);
+  }
+}
