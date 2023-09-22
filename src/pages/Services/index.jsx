@@ -3,8 +3,8 @@ import Loading from "../../components/HOCs/Loading";
 
 import AboutCard from "../../components/Card/AboutCard/AboutCard";
 import ReviewsCard from "../../components/Card/ReviewsCard/ReviewsCard";
-import Footer from "../../components/Footer/Footer";
-import Header from "../../components/Header";
+// import Header from "../../components/Header/Header";
+// import Footer from "../../components/Footer/Footer";
 import Counter from "../../components/Counter";
 import serviceLogoOne from "../../assets/astro4.jpg";
 
@@ -30,7 +30,7 @@ function Services() {
   }, []);
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <div className="service-section">
         <Banner page="Services" />
         <div className="service-sec-one">
@@ -223,7 +223,7 @@ function Services() {
           <ReviewsCard />
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

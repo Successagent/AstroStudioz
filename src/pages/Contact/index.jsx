@@ -1,8 +1,8 @@
 import React from "react";
 
 import Banner from "../../components/Banner";
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
+// import Header from "../../components/Header/Header";
+// import Footer from "../../components/Footer/Footer";
 
 import Loading from "../../components/HOCs/Loading";
 
@@ -14,7 +14,7 @@ import "../About/About.css";
 const Contact = () => {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <div className="Contact-section">
         <Banner page="Contact" />
         <div className="contact-section-one">
@@ -71,7 +71,7 @@ const Contact = () => {
         </div>
         <div className="contact-section-three">{/* <Map /> */}</div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

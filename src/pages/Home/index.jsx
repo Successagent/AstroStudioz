@@ -5,8 +5,10 @@ import mockupImg2 from "../../assets/astro9.jpg";
 import featuresImg from "../../assets/astro7.jpg";
 
 import Loading from "../../components/HOCs/Loading";
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
+
+import Footer from "../../components/Footer/Footer";
+import Header from "../../components/Header/Header";
+
 import "./Home.css";
 import Button from "../../components/Button";
 

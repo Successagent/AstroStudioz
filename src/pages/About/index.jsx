@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
-import Header from "../../components/Header";
+// import Header from "../../components/Header/Header";
+// import Footer from "../../components/Footer/Footer";
 import "../About/About.css";
 
 import Loading from "../../components/HOCs/Loading";
@@ -7,7 +8,6 @@ import aboutImageOne from "../../assets/astro20.jpg";
 
 import AboutCard from "../../components/Card/AboutCard/AboutCard";
 import ReviewsCard from "../../components/Card/ReviewsCard/ReviewsCard";
-import Footer from "../../components/Footer";
 import Banner from "../../components/Banner";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -18,7 +18,7 @@ function About() {
   }, []);
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <div className="about-section">
         <Banner />
         <div className="sect sect--row">
@@ -68,7 +68,7 @@ function About() {
           <ReviewsCard />
         </div>
       </div>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </>
   );
 }

@@ -1,0 +1,305 @@
+.footer {
+    background-color: #131313;
+    color: #fff;
+}
+
+.footer .top {
+    padding: 60px 14px;
+    background-color: #f94c30;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer .top .waves {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15vh;
+}
+
+.footer .top h2 {
+    text-align: center;
+    font-size: clamp(1.5rem, 7vw, 3rem);
+    line-height: clamp(36px, 7vw, 64px);
+    margin-bottom: 2rem;
+    text-transform: capitalize;
+    position: relative;
+    z-index: 5;
+}
+
+.footer .top a.btn {
+    border: 1px solid #cccccc;
+    padding: 16px 42px;
+    color: #fff;
+    background: transparent;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 5;
+    overflow: hidden;
+}
+
+.footer .top a.btn::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 400px;
+    width: 430px;
+    background: #fff;
+    border-radius: 50%;
+    transform: translateY(-50%) translateX(-50%) scale(0);
+    transition: all 0.5s ease-out 0s;
+    z-index: -1;
+}
+
+.footer .top a.btn:hover {
+    color: #f94c30;
+    border-color: #fff;
+}
+
+.footer .top a.btn:hover::before {
+    transform: translateY(-50%) translateX(-50%) scale(1);
+}
+
+.footer .top a.btn svg {
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.footer .bottom {
+    padding: 100px 0 50px 0;
+}
+
+.footer .bottom .grid {
+    padding: 1rem 14px;
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+}
+
+.footer .bottom .grid .item {
+    margin-bottom: 2rem;
+}
+
+.footer .bottom .grid .item.one .logo {
+    margin-bottom: 1rem;
+}
+
+.footer .bottom .grid .item.one .logo h2 {
+    font-size: clamp(1.5rem, 4vw, 1.8rem);
+}
+
+.footer .bottom .grid .item.one p {
+    font-size: clamp(0.9rem, 2vw, 1rem);
+    line-height: 24px;
+    margin-bottom: 2rem;
+}
+
+.footer .bottom .grid .item.one .socials {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.footer .bottom .grid .item.one .socials .icon {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 1rem;
+    background-color: #2b2b2b;
+    transition: 0.3s linear background-color;
+    margin-right: 10px;
+}
+
+.footer .bottom .grid .item.one .socials .icon svg {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.footer .bottom .grid .item.one .socials .icon:hover {
+    background-color: #f94c30;
+}
+
+.footer .bottom .grid .item.two h2,
+.footer .bottom .grid .item.three h2,
+.footer .bottom .grid .item.four h2 {
+    font-size: clamp(1.5rem, 4vw, 1.8rem);
+    margin-bottom: 2rem;
+}
+
+.footer .bottom .grid .item.two ul,
+.footer .bottom .grid .item.three ul,
+.footer .bottom .grid .item.four ul {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer .bottom .grid .item.two ul li,
+.footer .bottom .grid .item.three ul li,
+.footer .bottom .grid .item.four ul li {
+    font-size: clamp(1rem, 2vw, 1.1rem);
+    position: relative;
+    cursor: pointer;
+    width: auto;
+    margin-bottom: 1rem;
+    display: inline-flex;
+    transition: 0.4s;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.footer .bottom .grid .item.two ul li a svg,
+.footer .bottom .grid .item.three ul li a svg,
+.footer .bottom .grid .item.four ul li a svg {
+    left: 0;
+    top: 10%;
+}
+
+.footer .bottom .grid .item.two ul li svg,
+.footer .bottom .grid .item.three ul li svg,
+.footer .bottom .grid .item.four ul li svg {
+    position: absolute;
+    left: 0;
+    font-weight: 400;
+    font-size: 1rem;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.footer .bottom .grid .item.two ul li:hover,
+.footer .bottom .grid .item.three ul li:hover,
+.footer .bottom .grid .item.four ul li:hover {
+    color: #f94c30;
+    padding-left: 20px;
+}
+
+.footer .bottom .grid .item.two ul li:hover svg,
+.footer .bottom .grid .item.three ul li:hover svg,
+.footer .bottom .grid .item.four ul li:hover svg {
+    opacity: 1;
+}
+
+.footer .bottom .copyright {
+    padding: 2rem 14px;
+    border-top: 1px solid #2b2b2b;
+}
+
+.footer .bottom .copyright p {
+    text-align: center;
+    font-size: clamp(0.9rem, 3vw, 1rem);
+}
+
+@media screen and (min-width: 361px) {
+    .footer .top {
+        padding: 60px 24px;
+    }
+
+    .footer .bottom .grid {
+        padding: 1rem 24px;
+    }
+
+    .footer .bottom .copyright {
+        padding: 2rem 24px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .footer .top {
+        padding: 60px 40px;
+    }
+
+    .footer .top .waves {
+        height: 20vh;
+    }
+
+    .footer .bottom .grid {
+        padding: 1rem 40px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
+    }
+
+    .footer .bottom .grid .item:nth-child(2n) {
+        padding-left: 24px;
+    }
+
+    .footer .bottom .copyright {
+        padding: 2rem 40px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .footer .top {
+        padding: 60px 60px;
+    }
+
+    .footer .bottom .grid {
+        padding: 1rem 60px;
+    }
+
+    .footer .bottom .copyright {
+        padding: 2rem 60px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .footer .top {
+        padding: 60px 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .footer .top .waves {
+        height: 30vh;
+    }
+
+    .footer .top h2 {
+        width: 60%;
+        text-align: start;
+    }
+
+    .footer .bottom {
+        padding: 100px 0 10px 0;
+    }
+
+    .footer .bottom .grid {
+        padding: 1rem 80px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .footer .top {
+        padding: 60px 620px;
+    }
+
+    .footer .top .waves {
+        height: 10vh;
+    }
+
+    .footer .bottom .grid {
+        padding: 1rem 620px;
+    }
+}
