@@ -18,6 +18,7 @@ import {
   MdOutlineLocationOn,
 } from "react-icons/md";
 import "./header.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(false);
@@ -124,10 +125,21 @@ const Navbar = () => {
                 <li className="sub-item">Astro arch & Engineering</li>
               </ul>
             </li>
-            <li className="main-item">About</li>
-            <li className="main-item">Leadership</li>
-            <li className="main-item">News/Events</li>
-            <li className="main-item">Contact us</li>
+            <li className="main-item">
+              <Link to={"/"}>Home</Link>
+            </li>
+            <li className="main-item">
+              <Link to={"/about"}>About</Link>
+            </li>
+            <li className="main-item">
+              <Link to={"/contact"}>Contact Us</Link>
+            </li>
+            <li className="main-item">
+              <Link to={"/services"}>Services</Link>
+            </li>
+            <li className="main-item">
+              <Link to={"/faq"}>FAQ</Link>
+            </li>
           </ul>
           <div className="brief-info">
             <BsGridFill
