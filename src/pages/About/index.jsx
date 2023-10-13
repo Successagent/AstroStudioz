@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-// import Header from "../../components/Header/Header";
-// import Footer from "../../components/Footer/Footer";
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 import "../About/About.css";
 
 import Loading from "../../components/HOCs/Loading";
@@ -18,7 +18,7 @@ function About() {
   }, []);
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <div className="about-section">
         <Banner />
         <div className="sect sect--row">
@@ -68,7 +68,7 @@ function About() {
           <ReviewsCard />
         </div>
       </div>
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
     </>
   );
 }

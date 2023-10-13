@@ -1,8 +1,8 @@
 import React from "react";
 
 import Banner from "../../components/Banner";
-// import Header from "../../components/Header/Header";
-// import Footer from "../../components/Footer/Footer";
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 
 import Loading from "../../components/HOCs/Loading";
 
@@ -10,11 +10,12 @@ import { FaMapMarkedAlt } from "react-icons/fa";
 
 import "../Contact/Contact.css";
 import "../About/About.css";
+import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
 
 const Contact = () => {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <div className="Contact-section">
         <Banner page="Contact" />
         <div className="contact-section-one">
@@ -27,14 +28,14 @@ const Contact = () => {
           </div>
           <div>
             <div>
-              <FaMapMarkedAlt></FaMapMarkedAlt>
+              <AiOutlineMail></AiOutlineMail>
             </div>
             <h3 className="h3">Email</h3>
             <p className="h5">support@astrostudioz.com</p>
           </div>
           <div>
             <div>
-              <FaMapMarkedAlt></FaMapMarkedAlt>
+              <AiOutlinePhone></AiOutlinePhone>
             </div>
             <h3 className="h3">Phone</h3>
             <p className="h5">+2347041620712</p>
@@ -71,7 +72,7 @@ const Contact = () => {
         </div>
         <div className="contact-section-three">{/* <Map /> */}</div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

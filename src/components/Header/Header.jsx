@@ -87,7 +87,9 @@ const Navbar = () => {
       <div className="bottom">
         {/* company logo */}
         <div className="logo">
-          <h2>Astrosoft Group</h2>
+          <h2>
+            <Link to={"/"}>Astrosoft Group</Link>
+          </h2>
         </div>
 
         {/* hamburger */}

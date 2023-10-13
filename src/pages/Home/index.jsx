@@ -1,6 +1,6 @@
 import React from "react";
 
-import mockupImg from "../../assets/astro2.jpg";
+import mockupImg from "../../assets/astro2 (1).webp";
 import mockupImg2 from "../../assets/astro9.jpg";
 import featuresImg from "../../assets/astro7.jpg";
 

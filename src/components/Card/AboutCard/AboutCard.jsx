@@ -1,6 +1,6 @@
 import AboutCardLogoOne from "../../../assets/astro5.jpg";
-import AboutCardLogoTwo from "../../../assets/astro13.jpg";
-import AboutCardLogoThree from "../../../assets/astro2.jpg";
+import AboutCardLogoTwo from "../../../assets/astro13.webp";
+import AboutCardLogoThree from "../../../assets/astro2 (1).webp";
 
 const AboutCard = () => {
   return (

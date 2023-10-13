@@ -45,6 +45,11 @@ img {
   max-width: 100%;
 }
 
+input,
+select {
+  font-size: 16px !important;
+}
+
 
 body {
   margin: 0;

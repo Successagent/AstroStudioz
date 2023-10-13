@@ -1,8 +1,8 @@
 import React from "react";
 
 import ReviewLogoOne from "../../../assets/astro3.jpg";
-import ReviewLogoTwo from "../../../assets/astro16.jpg";
-import ReviewLogoThree from "../../../assets/astro1.jpg";
+import ReviewLogoTwo from "../../../assets/astro16.webp";
+import ReviewLogoThree from "../../../assets/astro1.webp";
 const ReviewsCard = () => {
   return (
     <div className="review-card">

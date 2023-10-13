@@ -78,6 +78,10 @@ a {
     background-color: #fff;
 }
 
+.logo h2 a {
+    color: #131313 !important;
+}
+
 .navbar .bottom .logo h2 {
     font-size: clamp(1.4rem, 4vw, 1.8rem);
 }
@@ -128,6 +132,10 @@ a {
     flex-direction: column;
     position: relative;
     cursor: pointer;
+}
+
+.main-item a {
+    color: #131313 !important;
 }
 
 .navbar .bottom .links ul li.main-item:hover {
@@ -560,7 +568,7 @@ a {
         padding: 1rem;
         background-color: #fff;
         border-radius: 5px;
-        color: #f94c30;
+        color: #f94c30 !important;
         transition: 0.2s linear all;
     }
 

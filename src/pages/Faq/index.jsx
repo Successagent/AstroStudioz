@@ -1,7 +1,7 @@
 import React from "react";
 import Banner from "../../components/Banner";
-// import Header from "../../components/Header/Header";
-// import Footer from "../../components/Footer/Footer";
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 
 import Loading from "../../components/HOCs/Loading";
 
@@ -12,7 +12,7 @@ import { FaPlus, FaMinus } from "react-icons/fa";
 const Faq = ({ toggleActive, active }) => {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <div className="faq-section">
         <Banner page="Faq" />
         <div className="faq-section-one">
@@ -115,7 +115,7 @@ const Faq = ({ toggleActive, active }) => {
           </div>
         </div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

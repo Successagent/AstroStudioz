@@ -3,8 +3,8 @@ import Loading from "../../components/HOCs/Loading";
 
 import AboutCard from "../../components/Card/AboutCard/AboutCard";
 import ReviewsCard from "../../components/Card/ReviewsCard/ReviewsCard";
-// import Header from "../../components/Header/Header";
-// import Footer from "../../components/Footer/Footer";
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
 import Counter from "../../components/Counter";
 import serviceLogoOne from "../../assets/astro4.jpg";
 
@@ -30,7 +30,7 @@ function Services() {
   }, []);
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <div className="service-section">
         <Banner page="Services" />
         <div className="service-sec-one">
@@ -176,7 +176,7 @@ function Services() {
               </div>
             </div>
             <h3 className="h3">
-              <Counter count={1000} />
+              <Counter count={5000} />
             </h3>
             <h5 className="h5">Loving Customer</h5>
           </div>
@@ -187,7 +187,7 @@ function Services() {
               </div>
             </div>
             <h3 className="h3">
-              <Counter count={28910} />
+              <Counter count={35} />
             </h3>
             <h5 className="h5">Awards Wins</h5>
           </div>
@@ -210,7 +210,7 @@ function Services() {
               </div>
             </div>
             <h3 className="h3">
-              <Counter count={323299} />
+              <Counter count={3299} />
             </h3>
             <h5 className="h5">Digital Computer</h5>
           </div>
@@ -223,7 +223,7 @@ function Services() {
           <ReviewsCard />
         </div>
       </div>
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
