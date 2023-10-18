@@ -17,8 +17,8 @@ import {
   MdOutlineEmail,
   MdOutlineLocationOn,
 } from "react-icons/md";
-import "./Header.css";
 import { Link } from "react-router-dom";
+import "./Header.css";
 
 const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(false);
