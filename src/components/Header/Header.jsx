@@ -18,7 +18,7 @@ import {
   MdOutlineLocationOn,
 } from "react-icons/md";
 import { Link } from "react-router-dom";
-import "./Header.css";
+import "./header.css";
 
 const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(false);
