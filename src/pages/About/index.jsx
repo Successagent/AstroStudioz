@@ -4,7 +4,7 @@ import Footer from "../../components/Footer/Footer";
 import "../About/About.css";
 
 import Loading from "../../components/HOCs/Loading";
-import aboutImageOne from "../../assets/astro20.jpg";
+import aboutImageOne from "../../assets/astro9.jpg";
 
 import AboutCard from "../../components/Card/AboutCard/AboutCard";
 import ReviewsCard from "../../components/Card/ReviewsCard/ReviewsCard";
