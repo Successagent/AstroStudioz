@@ -17,7 +17,7 @@ import {
   MdOutlineEmail,
   MdOutlineLocationOn,
 } from "react-icons/md";
-import "./header.css";
+import "./Header.css";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {

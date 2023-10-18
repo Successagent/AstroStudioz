@@ -4,7 +4,7 @@ import { BiChevronsRight } from "react-icons/bi";
 import { RiInstagramFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import waves from "../../assets/footer-top-waves.png";
-import "./footer.css";
+import "./Footer.css";
 
 const Footer = () => {
   return (
