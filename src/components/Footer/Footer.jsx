@@ -12,9 +12,15 @@ const Footer = () => {
       <div className="top">
         <img src={waves} alt="" className="waves" />
         <h2>We provide businesses with the right tools to grow faster </h2>
-        <Link to="/" className="btn">
+
+        <a
+          className="option_three btn"
+          href="https://nossairt.net/4/7625452"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Contact Us <BiChevronsRight />
-        </Link>
+        </a>
       </div>
 
       <div className="bottom">
