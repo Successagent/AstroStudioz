@@ -116,4 +116,4 @@ function Home() {
   );
 }
 
-export default Loading(Home);
+export default Home;
