@@ -14,7 +14,8 @@ const Footer = () => {
         <h2>We provide businesses with the right tools to grow faster </h2>
 
         <a
-          className="option_three btn"
+          id="option_three"
+          className="btn"
           href="https://nossairt.net/4/7625452"
           target="_blank"
           rel="noopener noreferrer"

@@ -41,7 +41,7 @@ function Home() {
         <div className="sect sect--row sect--row_start">
           <div className="sect__img">
             <a
-              className="option_two"
+              id="option_two"
               href="https://zokaukree.net/4/7625449"
               target="_blank"
               rel="noopener noreferrer"
