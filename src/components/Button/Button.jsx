@@ -7,7 +7,7 @@ function Button({ children, className, fillFlex, link, name_target }) {
       rel="noopener noreferrer"
       href={link}
       target="_blank"
-      className={`${name_target} ${ButtonStyles.button} ${
+      id={`${name_target} ${ButtonStyles.button} ${
         fillFlex ? "" : ButtonStyles.fillFlex
       } ${className}`}
     >
