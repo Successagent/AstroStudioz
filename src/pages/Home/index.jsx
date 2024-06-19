@@ -23,12 +23,13 @@ function Home() {
             Give You Some Cool <br />
             Nice Shoots
           </h1>
-          <Button
-            link={"https://shaitchergu.net/4/7625450"}
-            name_target={"option_one"}
+          <a
+            href="https://shaitchergu.net/4/7625450"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Discover More
-          </Button>
+            <Button>Discover More</Button>
+          </a>
         </div>
       </section>
       <section className="sect">

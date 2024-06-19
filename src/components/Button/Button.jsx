@@ -1,19 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import ButtonStyles from "./Button.module.css";
 
-function Button({ children, className, fillFlex, link, name_target }) {
+function Button({ children, className, fillFlex }) {
   return (
-    <a
-      rel="noopener noreferrer"
-      href={link}
-      target="_blank"
-      id={`${name_target} ${ButtonStyles.button} ${
+    <button
+      className={`${ButtonStyles.button} ${
         fillFlex ? "" : ButtonStyles.fillFlex
       } ${className}`}
     >
       <p>{children}</p>
       <div className={ButtonStyles.arrowContainer}>z</div>
-    </a>
+    </button>
   );
 }
 
