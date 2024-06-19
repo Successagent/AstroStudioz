@@ -24,6 +24,7 @@ function Home() {
             Nice Shoots
           </h1>
           <a
+            id="option_one"
             href="https://shaitchergu.net/4/7625450"
             target="_blank"
             rel="noopener noreferrer"
