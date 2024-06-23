@@ -26,7 +26,7 @@ function Home() {
           <a
             id="option_one"
             href="https://shaitchergu.net/4/7625450"
-            target="_blank"
+        
             rel="noopener noreferrer"
           >
             <Button>Discover More</Button>
