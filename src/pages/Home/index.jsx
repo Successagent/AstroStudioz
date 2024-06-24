@@ -30,7 +30,7 @@ function Home() {
       <section className="sect">
         <a
           id="option_one"
-          href="https://shaitchergu.net/4/7625450"
+          href="https://stongoapti.net/4/7575819"
           target="_blank"
           rel="noopener noreferrer"
         >
