@@ -23,18 +23,19 @@ function Home() {
             Give You Some Cool <br />
             Nice Shoots
           </h1>
-          <a
-            id="option_one"
-            href="https://shaitchergu.net/4/7625450"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button>Discover More</Button>
-          </a>
+
+          <Button>Discover More</Button>
         </div>
       </section>
       <section className="sect">
-        <h3 className="sect__sub_header">About our company</h3>
+        <a
+          id="option_one"
+          href="https://shaitchergu.net/4/7625450"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h3 className="sect__sub_header">About our company</h3>
+        </a>
         <h2 className="sect__header">
           Get your dream Pictures with AstroStudioz
         </h2>
