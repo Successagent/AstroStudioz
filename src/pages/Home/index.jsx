@@ -16,7 +16,14 @@ function Home() {
       <Header />
       <section className="hero">
         <div className="hero__text">
-          <h3 className="sect__sub_header">— Welcome to AstroStudioz</h3>
+          <a
+            id="option_one"
+            href="https://stongoapti.net/4/7575819"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h3 className="sect__sub_header">— Welcome to AstroStudioz</h3>
+          </a>
           <h1>
             Come <br />
             Let AstroStudioz <br />
@@ -28,14 +35,8 @@ function Home() {
         </div>
       </section>
       <section className="sect">
-        <a
-          id="option_one"
-          href="https://stongoapti.net/4/7575819"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h3 className="sect__sub_header">About our company</h3>
-        </a>
+        <h3 className="sect__sub_header">About our company</h3>
+
         <h2 className="sect__header">
           Get your dream Pictures with AstroStudioz
         </h2>
