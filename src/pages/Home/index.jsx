@@ -18,7 +18,7 @@ function Home() {
         <div className="hero__text">
           <a
             id="option_one"
-            href="https://stongoapti.net/4/7575819"
+            href="https://psoansumt.net/4/7625451"
             target="_blank"
             rel="noopener noreferrer"
           >
