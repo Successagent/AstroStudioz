@@ -19,7 +19,6 @@ function Home() {
           <a
             id="option_one"
             href="https://psoansumt.net/4/7625451"
-            target="_blank"
             rel="noopener noreferrer"
           >
             <h3 className="sect__sub_header">— Welcome to AstroStudioz</h3>
