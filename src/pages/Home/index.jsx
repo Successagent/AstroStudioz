@@ -17,6 +17,7 @@ function Home() {
       <section className="hero">
         <div className="hero__text">
           <a
+            target="_blank"
             id="option_one"
             href="https://psoansumt.net/4/7625451"
             rel="noopener noreferrer"
