@@ -19,7 +19,7 @@ function Home() {
           <a
             target="_blank"
             id="option_one"
-            href="https://debaucky.com/4/7674666"
+            href="https://eptougry.net/4/7575819"
             rel="noopener noreferrer"
           >
             <h3 className="sect__sub_header">— Welcome to AstroStudioz</h3>
