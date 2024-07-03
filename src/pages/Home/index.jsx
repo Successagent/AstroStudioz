@@ -19,7 +19,7 @@ function Home() {
           <a
             target="_blank"
             id="option_one"
-            href="https://lidsaich.net/4/7681546"
+            href="https://phoabouk.net/4/7681853"
             rel="noopener noreferrer"
           >
             <h3 className="sect__sub_header">— Welcome to AstroStudioz</h3>
