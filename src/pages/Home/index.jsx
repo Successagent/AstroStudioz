@@ -19,7 +19,7 @@ function Home() {
           <a
             target="_blank"
             id="option_one"
-            href="https://oangewha.net/4/7682553"
+            href="https://zaipegrob.net/4/7682643"
             rel="noopener noreferrer"
           >
             <h3 className="sect__sub_header">— Welcome to AstroStudioz</h3>
