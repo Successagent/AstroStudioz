@@ -17,10 +17,10 @@ function Home() {
       <section className="hero">
         <div className="hero__text">
           <a
-            target="_blank"
+            // target="_blank"
             id="option_one"
-            href="https://soojoafaleh.com/4/7575819"
-            rel="noopener noreferrer"
+            href="https://potsaglu.net/4/7682257"
+            // rel="noopener noreferrer"
           >
             <h3 className="sect__sub_header">— Welcome to AstroStudioz</h3>
           </a>
