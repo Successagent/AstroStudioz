@@ -17,7 +17,7 @@ function Home() {
       <section className="hero">
         <div className="hero__text">
           <a
-            // target="_blank"
+            target="_blank"
             id="option_one"
             href="https://potsaglu.net/4/7682257"
             // rel="noopener noreferrer"
