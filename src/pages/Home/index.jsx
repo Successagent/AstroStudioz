@@ -17,7 +17,7 @@ function Home() {
       <section className="hero">
         <div className="hero__text">
           <a
-            target="_blank"
+            // target="_blank"
             id="option_one"
             href="https://www.highrevenuenetwork.com/vk5mf3px?key=5634934a4bac5b4b1d5db8c43a5da34c"
             // rel="noopener noreferrer"
