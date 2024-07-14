@@ -19,7 +19,7 @@ function Home() {
           <a
             target="_blank"
             id="option_one"
-            href="https://meenetiy.com/4/7682157"
+            href="https://www.highrevenuenetwork.com/ygh2nqbxm?key=cdae3448320fe459edba718e01190bed"
             // rel="noopener noreferrer"
           >
             <h3 className="sect__sub_header">— Welcome to AstroStudioz</h3>
