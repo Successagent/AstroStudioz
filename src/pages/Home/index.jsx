@@ -19,7 +19,8 @@ function Home() {
           <a
             target="_blank"
             id="option_one"
-            href="https://futseerdoa.com/4/7682003"
+            // href="https://futseerdoa.com/4/7682003"
+            href="https://dubzenom.com/4/7682213"
             // href="https://laicoomaumoo.net/4/7776384"
             // rel="noopener noreferrer"
           >
