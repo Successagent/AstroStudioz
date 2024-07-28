@@ -19,7 +19,8 @@ function Home() {
           <a
             target="_blank"
             id="option_one"
-            href="https://laicoomaumoo.net/4/7776384"
+            href="https://ptaubsaungon.com/4/7774894"
+            // href="https://laicoomaumoo.net/4/7776384"
             // rel="noopener noreferrer"
           >
             <h3 className="sect__sub_header">— Welcome to AstroStudioz</h3>
