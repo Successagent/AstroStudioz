@@ -19,7 +19,7 @@ function Home() {
           <a
             target="_blank"
             id="option_one"
-            href="https://ptaubsaungon.com/4/7774894"
+            href="https://futseerdoa.com/4/7682003"
             // href="https://laicoomaumoo.net/4/7776384"
             // rel="noopener noreferrer"
           >
