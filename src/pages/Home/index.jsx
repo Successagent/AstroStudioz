@@ -19,10 +19,8 @@ function Home() {
           <a
             target="_blank"
             id="option_one"
-            // href="https://futseerdoa.com/4/7682003"
-            href="https://dubzenom.com/4/7682213"
-            // href="https://laicoomaumoo.net/4/7776384"
-            // rel="noopener noreferrer"
+            href="https://www.cpmrevenuegate.com/gcygark5w2?key=8c3e6e86ff38c22de2939d297bd4964f"
+            rel="noopener noreferrer"
           >
             <h3 className="sect__sub_header">— Welcome to AstroStudioz</h3>
           </a>
