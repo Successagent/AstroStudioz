@@ -19,7 +19,7 @@ function Home() {
           <a
             target="_blank"
             id="option_one"
-            href="https://www.cpmrevenuegate.com/g0x7zvsni?key=354b85888bdf875b1080f8afaf56a7b4"
+            href="https://luglawhaulsano.net/4/8267537"
             rel="noopener noreferrer"
           >
             <h3 className="sect__sub_header">— Welcome to AstroStudioz</h3>
