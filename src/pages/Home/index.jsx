@@ -34,6 +34,7 @@ function Home() {
           <Button>Discover More</Button>
         </div>
       </section>
+      <div id="container-8487f12894e86d958e3934ea75890700"></div>
       <section className="sect">
         <h3 className="sect__sub_header">About our company</h3>
 
