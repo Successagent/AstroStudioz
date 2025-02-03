@@ -77,7 +77,7 @@ const Footer = () => {
               </li>
               <li>
                 <BiChevronsRight />
-                Astrostudioz
+                Astrostudioz Movies
               </li>
               <li>
                 <BiChevronsRight /> Astro arch & Engineering

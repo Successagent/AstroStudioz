@@ -36,7 +36,7 @@ const Navbar = () => {
 
   return (
     <nav className={`navbar ${scrollHeight > 50 ? `fixed` : ``}`}>
-      <div className="top">
+      {/* <div className="top">
         <div className="address">
           <MdLocationPin />
           <a
@@ -82,13 +82,13 @@ const Navbar = () => {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="bottom">
         {/* company logo */}
         <div className="logo">
           <h2>
-            <Link to={"/"}>Astrosoft Group</Link>
+            <Link to={"/"}>AstroStudioz Movies</Link>
           </h2>
         </div>
 
@@ -107,42 +107,6 @@ const Navbar = () => {
             showSubList ? `extra-height` : ``
           }`}
         >
-          <ul className="main-list">
-            <li
-              className={`main-item  ${showSubList ? `show` : ``}`}
-              onMouseEnter={() => setShowSubList(true)}
-              onMouseLeave={() => setShowSubList(false)}
-            >
-              Companies
-              {showSubList ? (
-                <FaMinus onClick={() => setShowSubList(false)} />
-              ) : (
-                <FaPlus onClick={() => setShowSubList(true)} />
-              )}
-              <ul className={`sub-list`}>
-                <li className="sub-item">Astrosoft Group</li>
-                <li className="sub-item">Astrosoft development</li>
-                <li className="sub-item">Astroprints</li>
-                <li className="sub-item">Astrostudioz</li>
-                <li className="sub-item">Astro arch & Engineering</li>
-              </ul>
-            </li>
-            <li className="main-item">
-              <Link to={"/"}>Home</Link>
-            </li>
-            <li className="main-item">
-              <Link to={"/about"}>About</Link>
-            </li>
-            <li className="main-item">
-              <Link to={"/contact"}>Contact Us</Link>
-            </li>
-            <li className="main-item">
-              <Link to={"/services"}>Services</Link>
-            </li>
-            <li className="main-item">
-              <Link to={"/faq"}>FAQ</Link>
-            </li>
-          </ul>
           <div className="brief-info">
             <BsGridFill
               className="icon"

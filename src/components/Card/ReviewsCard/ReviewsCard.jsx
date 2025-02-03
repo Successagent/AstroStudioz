@@ -21,7 +21,7 @@ const ReviewsCard = () => {
       <div>
         <div className="reviewcard-caption">
           <p className="h5">
-            There is more creativity in AstroStudioz than they know{" "}
+            There is more creativity in AstroStudioz Movies than they know{" "}
           </p>
         </div>
         <div className="reviewcard-item-two">

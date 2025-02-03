@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Routes, Route, Link } from "react-router-dom";
-import { Home, About, Services, Faq, Contact } from "./pages";
+import { Home } from "./pages";
 import "./App.css";
 
 function App() {
@@ -35,16 +35,6 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route
-        path="about"
-        element={<About toggleActive={toggleActive} active={active} />}
-      />
-      <Route path="services" element={<Services />} />
-      <Route
-        path="faq"
-        element={<Faq toggleActive={toggleActive} active={active} />}
-      />
-      <Route path="contact" element={<Contact />} />
     </Routes>
   );
 }

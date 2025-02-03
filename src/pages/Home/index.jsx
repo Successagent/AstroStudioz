@@ -22,11 +22,14 @@ function Home() {
             href="https://luglawhaulsano.net/4/8267537"
             rel="noopener noreferrer"
           >
-            <h3 className="sect__sub_header">— Welcome to AstroStudioz</h3>
+            <h3 className="sect__sub_header">
+              — Welcome to AstroStudioz Movies
+            </h3>
           </a>
           <h1>
             Come <br />
-            Let AstroStudioz <br />
+            Let AstroStudioz Movies
+            <br />
             Give You Some Cool <br />
             Nice Shoots
           </h1>
@@ -39,7 +42,7 @@ function Home() {
         <h3 className="sect__sub_header">About our company</h3>
 
         <h2 className="sect__header">
-          Get your dream Pictures with AstroStudioz
+          Get your dream Pictures with AstroStudioz Movies
         </h2>
         <div className="sect sect--row sect--row_start">
           <div className="sect__img">
@@ -58,12 +61,13 @@ function Home() {
                 This stunning photograph captures a perfect moment of joy for
                 the Young man here, with the vibrant colors and natural lighting
                 adding a magical touch. It's a true testament to the exceptional
-                photography skills and creative eye of the AstroStudioz team.
+                photography skills and creative eye of the AstroStudioz Movies
+                team.
               </p>
             </div>
             <div className="sect__text--col">
               <p className="text--gray">
-                AstroStudioz would love to be selected as the official
+                AstroStudioz Movies would love to be selected as the official
                 photographer for a major international event, such as the
                 Olympic Games or a high-profile music festival. Being chosen for
                 such an event would not only be a tremendous honor but also
@@ -80,10 +84,12 @@ function Home() {
       <section className="sect sect--row sect--blue">
         <div className="sect__text">
           <h3 className="sect__sub_header">Need any Good Photo</h3>
-          <h2 className="sect__header">Why people choose AstroStudioz</h2>
+          <h2 className="sect__header">
+            Why people choose AstroStudioz Movies
+          </h2>
           <p>
             For its distinctive and cutting-edge approach to photography,
-            AstroStudioz is renowned. We test the limits of conventional
+            AstroStudioz Movies is renowned. We test the limits of conventional
             photography and look for fresh, imaginative approaches to capturing
             lovely moments. Our talented team of photographers is always looking
             for fresh ideas and methods to produce outstanding outcomes.
@@ -96,12 +102,14 @@ function Home() {
       <section className="sect sect--row-reverse">
         <div className="sect__text">
           <h3 className="sect__sub_header">What we Do</h3>
-          <h2 className="sect__header">Why people choose AstroStudioz</h2>
+          <h2 className="sect__header">
+            Why people choose AstroStudioz Movies
+          </h2>
           <p>
-            At AstroStudioz, we believe that exceptional customer service is
-            just as important as exceptional photography. We work closely with
-            our clients to understand their needs and preferences, and we strive
-            to provide a stress-free and enjoyable experience during the
+            At AstroStudioz Movies, we believe that exceptional customer service
+            is just as important as exceptional photography. We work closely
+            with our clients to understand their needs and preferences, and we
+            strive to provide a stress-free and enjoyable experience during the
             photography session. Our team is always available to answer any
             questions and provide support throughout the entire process.
           </p>
