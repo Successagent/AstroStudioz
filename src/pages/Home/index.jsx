@@ -17,9 +17,8 @@ function Home() {
       <section className="hero">
         <div className="hero__text">
           <a
-            target="_blank"
             id="option_one"
-            href="https://luglawhaulsano.net/4/8267537"
+            href="https://poawooptugroo.com/4/8887923"
             rel="noopener noreferrer"
           >
             <h3 className="sect__sub_header">
@@ -46,12 +45,7 @@ function Home() {
         </h2>
         <div className="sect sect--row sect--row_start">
           <div className="sect__img">
-            <a
-              id="option_two"
-              href="https://zokaukree.net/4/7625449"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a id="option_two" rel="noopener noreferrer">
               <img src={featuresImg} alt="" />
             </a>
           </div>
