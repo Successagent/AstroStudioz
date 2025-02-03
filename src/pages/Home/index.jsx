@@ -60,16 +60,21 @@ function Home() {
               </p>
             </div>
             <div className="sect__text--col">
-              <p className="text--gray">
-                AstroStudioz Movies would love to be selected as the official
-                photographer for a major international event, such as the
-                Olympic Games or a high-profile music festival. Being chosen for
-                such an event would not only be a tremendous honor but also
-                provide the opportunity to showcase our creative talents and
-                exceptional photography skills on a global stage. It would also
-                help us to attract even more high-profile clients and expand our
-                reach as a top-tier photography studio.
-              </p>
+              <a
+                href="https://www.profitablecpmrate.com/w3ratsn2rb?key=43a1b6b92453d5d71d3e8528893d7a05"
+                rel="noopener noreferrer"
+              >
+                <p className="text--gray">
+                  AstroStudioz Movies would love to be selected as the official
+                  photographer for a major international event, such as the
+                  Olympic Games or a high-profile music festival. Being chosen
+                  for such an event would not only be a tremendous honor but
+                  also provide the opportunity to showcase our creative talents
+                  and exceptional photography skills on a global stage. It would
+                  also help us to attract even more high-profile clients and
+                  expand our reach as a top-tier photography studio.
+                </p>
+              </a>
             </div>
           </div>
         </div>
