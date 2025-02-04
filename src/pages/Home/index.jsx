@@ -41,7 +41,7 @@ function Home() {
         <h3 className="sect__sub_header">About our company</h3>
 
         <h2 className="sect__header">
-          Get your dream Pictures with AstroStudioz Movies
+          Get your dream Movies Recommedation with AstroStudioz Movies
         </h2>
         <div className="sect sect--row sect--row_start">
           <div className="sect__img">
