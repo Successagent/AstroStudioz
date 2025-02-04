@@ -61,7 +61,7 @@ function Home() {
             </div>
             <div className="sect__text--col">
               <a
-                href="https://www.profitablecpmrate.com/w3ratsn2rb?key=43a1b6b92453d5d71d3e8528893d7a05"
+                href="https://cohereproceedingsspark.com/w3ratsn2rb?key=43a1b6b92453d5d71d3e8528893d7a05"
                 rel="noopener noreferrer"
               >
                 <p className="text--gray">
