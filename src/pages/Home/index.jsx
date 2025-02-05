@@ -51,31 +51,31 @@ function Home() {
           </div>
           <div className="sect__text">
             <div className="sect__text--row">
-              <p>
-                This stunning photograph captures a perfect moment of joy for
-                the Young man here, with the vibrant colors and natural lighting
-                adding a magical touch. It's a true testament to the exceptional
-                photography skills and creative eye of the AstroStudioz Movies
-                team.
-              </p>
-            </div>
-            <div className="sect__text--col">
               <a
                 id="option_one"
                 href="https://cohereproceedingsspark.com/w3ratsn2rb?key=43a1b6b92453d5d71d3e8528893d7a05"
                 rel="noopener noreferrer"
               >
-                <p className="text--gray">
-                  AstroStudioz Movies would love to be selected as the official
-                  photographer for a major international event, such as the
-                  Olympic Games or a high-profile music festival. Being chosen
-                  for such an event would not only be a tremendous honor but
-                  also provide the opportunity to showcase our creative talents
-                  and exceptional photography skills on a global stage. It would
-                  also help us to attract even more high-profile clients and
-                  expand our reach as a top-tier photography studio.
+                <p>
+                  This stunning movies captures a perfect moment of joy for the
+                  Young man here, with the vibrant astonishing and natural
+                  actions adding a magical touch. It's a true testament to the
+                  exceptional photography skills and creative eye of the
+                  AstroStudioz Movies team.
                 </p>
               </a>
+            </div>
+            <div className="sect__text--col">
+              <p className="text--gray">
+                AstroStudioz Movies would love to be selected as the official
+                photographer for a major international event, such as the
+                Olympic Games or a high-profile music festival. Being chosen for
+                such an event would not only be a tremendous honor but also
+                provide the opportunity to showcase our creative talents and
+                exceptional photography skills on a global stage. It would also
+                help us to attract even more high-profile clients and expand our
+                reach as a top-tier photography studio.
+              </p>
             </div>
           </div>
         </div>
