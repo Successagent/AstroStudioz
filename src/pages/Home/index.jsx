@@ -17,7 +17,8 @@ function Home() {
       <section className="hero">
         <div className="hero__text">
           <a
-option_one            href="https://poawooptugroo.com/4/8887923"
+            href="https://poawooptugroo.com/4/8899412"
+            // href="https://poawooptugroo.com/4/8887923"
             rel="noopener noreferrer"
           >
             <h3 className="sect__sub_header">
