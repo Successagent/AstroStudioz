@@ -17,7 +17,7 @@ function Home() {
       <section className="hero">
         <div className="hero__text">
           <a
-            href="https://poawooptugroo.com/4/8887923"
+option_one            href="https://poawooptugroo.com/4/8887923"
             rel="noopener noreferrer"
           >
             <h3 className="sect__sub_header">
@@ -51,7 +51,7 @@ function Home() {
           <div className="sect__text">
             <div className="sect__text--row">
               <a
-                id=""
+                id="option_one"
                 href="https://cohereproceedingsspark.com/w3ratsn2rb?key=43a1b6b92453d5d71d3e8528893d7a05"
                 rel="noopener noreferrer"
               >
