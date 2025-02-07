@@ -18,7 +18,6 @@ function Home() {
         <div className="hero__text">
           <a
             href="https://poawooptugroo.com/4/8899412"
-            // href="https://poawooptugroo.com/4/8887923"
             rel="noopener noreferrer"
           >
             <h3 className="sect__sub_header">
@@ -36,7 +35,7 @@ function Home() {
           <Button>Discover More</Button>
         </div>
       </section>
-      <div id="container-8487f12894e86d958e3934ea75890700"></div>
+
       <section className="sect">
         <h3 className="sect__sub_header">About our company</h3>
 
@@ -51,19 +50,13 @@ function Home() {
           </div>
           <div className="sect__text">
             <div className="sect__text--row">
-              <a
-                id="option_one"
-                href="https://cohereproceedingsspark.com/w3ratsn2rb?key=43a1b6b92453d5d71d3e8528893d7a05"
-                rel="noopener noreferrer"
-              >
-                <p>
-                  This stunning movies captures a perfect moment of joy for the
-                  Young man here, with the vibrant astonishing and natural
-                  actions adding a magical touch. It's a true testament to the
-                  exceptional photography skills and creative eye of the
-                  AstroStudioz Movies team.
-                </p>
-              </a>
+              <p>
+                This stunning movies captures a perfect moment of joy for the
+                Young man here, with the vibrant astonishing and natural actions
+                adding a magical touch. It's a true testament to the exceptional
+                photography skills and creative eye of the AstroStudioz Movies
+                team.
+              </p>
             </div>
             <div className="sect__text--col">
               <p className="text--gray">
